@@ -1,0 +1,28 @@
+{
+  "name": "hn.js",
+  "version": "0.0.1",
+  "description": "Hacker News Scraper",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bencevans/hn.js.git"
+  },
+  "keywords": [
+    "hacker",
+    "news",
+    "YCombinator",
+    "scraper",
+    "api",
+    "hn"
+  ],
+  "author": "Ben Evans",
+  "license": "BSD",
+  "dependencies": {
+    "underscore": "~1.4.1",
+    "request": "~2.11.4",
+    "cheerio": "~0.10.0"
+  }
+}
