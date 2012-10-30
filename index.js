@@ -33,28 +33,16 @@ var call = function (path, callback) {
 }
 
 var home = function (callback) {
-    if(typeof callback == "undefined") {
-        var callback = page;
-        var page = 0;
-    }
-    call('/', callback);
-}
+  call('/', callback);
+};
 
 var newest = function (callback) {
-    if(typeof callback == "undefined") {
-        var callback = page;
-        var page = 0;
-    }
-    call('/newest', callback);
-}
+  call('/newest', callback);
+};
 
 var best = function (callback) {
-    if(typeof callback == "undefined") {
-        var callback = page;
-        var page = 0;
-    }
-    call('/best', callback);
-}
+  call('/best', callback);
+};
 
 module.exports.home = home;
 module.exports.newest = newest;
