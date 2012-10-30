@@ -6,7 +6,7 @@
 
 ##Example
 
-	var hn = require("hn");
+	var hn = require("hn.js");
 	
 	//home can be replaced with best or newest
 	hn.home(function(err, items) {
