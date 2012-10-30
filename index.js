@@ -5,17 +5,18 @@ var cheerio = require('cheerio');
 var baseURL = 'http://news.ycombinator.com';
 
 var call = function (path, callback) {
-
   request(baseURL + path, function(err, res, body) {
+    if(err) return callback(err);
+    parsePage(body, callback);
+  });
+};
 
-    if(err)
-      return callback(err);
+var parsePage = function (body, callback) {
+  var items = [];
 
-    var items = [];
-
-    $ = cheerio.load(body);
-    $('td.title').each(function (index, element) {
-     if(index % 2 !== 1)
+  var $ = cheerio.load(body);
+  $('td.title').each(function (index, element) {
+    if(index % 2 !== 1)
       return true;
 
     var item = {};
@@ -26,12 +27,9 @@ var call = function (path, callback) {
     item.title = $(this).find('a').text();
     item.url = $(this).find('a').attr('href');
     items.push(item);
-
   });
 
-    callback(null, items);
-
-  });
+  callback(null, items);
 };
 
 var home = function (callback) {
@@ -46,7 +44,16 @@ var best = function (callback) {
   call('/best', callback);
 };
 
+// Export Vars
 module.exports.baseURL = baseURL;
+
+// Export Parser
+module.exports.parsePage = parsePage;
+
+// Export Call
+module.exports.call = call;
+
+// Export Call Proxies
 module.exports.home = home;
 module.exports.newest = newest;
 module.exports.best = best;
