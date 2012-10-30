@@ -2,9 +2,11 @@ var request = require('request');
 var _ = require('underscore');
 var cheerio = require('cheerio');
 
+var baseURL = 'http://news.ycombinator.com';
+
 var call = function (path, callback) {
 
-  request('http://news.ycombinator.com' + path, function(err, res, body) {
+  request(baseURL + path, function(err, res, body) {
 
     if(err)
       return callback(err);
@@ -44,6 +46,7 @@ var best = function (callback) {
   call('/best', callback);
 };
 
+module.exports.baseURL = baseURL;
 module.exports.home = home;
 module.exports.newest = newest;
 module.exports.best = best;
