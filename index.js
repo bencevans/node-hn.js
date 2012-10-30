@@ -22,7 +22,7 @@ var call = function (path, callback) {
     var tempHref = $(this).parent().next().find('a').next().attr('href');
     if(!tempHref)
       return false;
-    item.id = parseInt(tempHref.match(/id=([0-9]+)/)[1], 1);
+    item.id = parseInt(tempHref.match(/id=([0-9]+)/)[1], 10);
     item.title = $(this).find('a').text();
     item.url = $(this).find('a').attr('href');
     items.push(item);
