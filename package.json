@@ -1,6 +1,6 @@
 {
   "name": "hn.js",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Hacker News Scraper",
   "main": "index.js",
   "scripts": {
