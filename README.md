@@ -6,24 +6,27 @@
 
 ##Example
 
-	var hn = require("hn.js");
-	
-	//home can be replaced with best or newest
-	hn.home(function(err, items) {
-		if(err) return console.error(err);
-		console.log(items);
-	});
+```javascript
+var hn = require("hn.js");
+
+// home can be replaced with best or newest
+hn.home(function(err, items) {
+	if(err) return console.error(err);
+	console.log(items);
+});
+```
 
 Writes to Log:
 
-	{ id: 4597977,
-	 title: 'Xkcd style graphs',
-	 url: 'http://mathematica.stackexchange.com/questions/11350/xkcd-style-graphs' },
-	{ id: 4596609,
-	 title: 'Why Mozilla Persona is the right answer to the question of Identity',
-	 url: 'http://labs.newsint.co.uk/blog/2012/10/why-mozilla-persona-is-the-right-answer-to-the-question-of-identity/' },
-	 ...
-
+```javascript
+{ id: 4597977,
+ title: 'Xkcd style graphs',
+ url: 'http://mathematica.stackexchange.com/questions/11350/xkcd-style-graphs' },
+{ id: 4596609,
+ title: 'Why Mozilla Persona is the right answer to the question of Identity',
+ url: 'http://labs.newsint.co.uk/blog/2012/10/why-mozilla-persona-is-the-right-answer-to-the-question-of-identity/' },
+// ...
+```
 
 Inspired by [forresty/hn](https://github.com/forresty/hn), required by [bencevans/HNCache](https://github.com/bencevans/HNCache)
 
