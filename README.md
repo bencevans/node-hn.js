@@ -4,7 +4,13 @@
 
 [Hacker News](http://news.ycombinator.com) Parser
 
-##Example
+## Install
+
+```bash
+npm install hn.js
+```
+
+## Example
 
 ```javascript
 var hn = require("hn.js");
@@ -30,12 +36,12 @@ Writes to Log:
 
 Inspired by [forresty/hn](https://github.com/forresty/hn), required by [bencevans/HNCache](https://github.com/bencevans/HNCache)
 
-##Links
+## Links
 
-[GitHub Repo](https://github.com/bencevans/hn.js)
-[Issues](https://github.com/bencevans/hn.js/issues)
+[GitHub Repo](https://github.com/bencevans/node-hn.js)
+[Issues](https://github.com/bencevans/node-hn.js/issues)
 
-##Licence
+## Licence
 
 The MIT Licence
 
