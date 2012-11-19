@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/bencevans/hn.js.git"
+    "url": "git://github.com/bencevans/node-hn.js.git"
   },
   "keywords": [
     "hacker",
