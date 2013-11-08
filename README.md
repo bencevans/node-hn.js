@@ -1,8 +1,10 @@
 #hn.js
 
-
-
 [Hacker News](http://news.ycombinator.com) Parser
+
+[![Build Status](https://travis-ci.org/bencevans/node-hn.js.png?branch=master)](https://travis-ci.org/bencevans/node-hn.js)
+[![Coverage Status](https://coveralls.io/repos/bencevans/node-hn.js/badge.png?branch=master)](https://coveralls.io/r/bencevans/node-hn.js?branch=master)
+[![Dependency Status](https://david-dm.org/bencevans/node-hn.js.png)](https://david-dm.org/bencevans/node-hn.js)
 
 ## Install
 
