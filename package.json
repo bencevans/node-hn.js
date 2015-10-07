@@ -22,13 +22,13 @@
   "author": "Ben Evans",
   "license": "MIT",
   "dependencies": {
-    "underscore": "~1.5.2",
-    "request": "~2.29.0",
-    "cheerio": "~0.12.4"
+    "underscore": "1.5.2",
+    "request": "2.29.0",
+    "cheerio": "0.12.4"
   },
   "devDependencies": {
-    "mocha": "~1.14.0",
-    "istanbul": "~0.1.46",
-    "coveralls": "~2.3.0"
+    "mocha": "1.14.0",
+    "istanbul": "0.1.46",
+    "coveralls": "2.3.0"
   }
 }
