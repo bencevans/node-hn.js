@@ -27,7 +27,7 @@
     "cheerio": "0.12.4"
   },
   "devDependencies": {
-    "mocha": "1.14.0",
+    "mocha": "2.3.3",
     "istanbul": "0.1.46",
     "coveralls": "2.3.0"
   }
