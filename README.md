@@ -1,6 +1,6 @@
 #hn.js [![Build Status](https://img.shields.io/travis/bencevans/node-hn.js.svg?style=flat-square)](https://travis-ci.org/bencevans/node-hn.js) [![Dependency Status](https://img.shields.io/david/bencevans/node-hn.js.svg?style=flat-square)](https://david-dm.org/bencevans/node-hn.js) [![Coverage Status](https://img.shields.io/coveralls/bencevans/node-hn.js.svg?style=flat-square)](https://coveralls.io/r/bencevans/node-hn.js?branch=master)
 
-[Hacker News](http://news.ycombinator.com) Scraper
+> [Hacker News](http://news.ycombinator.com) Scraper
 
 
 
