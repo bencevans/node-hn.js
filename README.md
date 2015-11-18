@@ -1,10 +1,8 @@
-#hn.js
+#hn.js [![Build Status](https://img.shields.io/travis/bencevans/node-hn.js.svg?style=flat-square)](https://travis-ci.org/bencevans/node-hn.js) [![Dependency Status](https://img.shields.io/david/bencevans/node-hn.js.svg?style=flat-square)](https://david-dm.org/bencevans/node-hn.js) [![Coverage Status](https://img.shields.io/coveralls/bencevans/node-hn.js.svg?style=flat-square)](https://coveralls.io/r/bencevans/node-hn.js?branch=master)
 
-[Hacker News](http://news.ycombinator.com) Parser
+[Hacker News](http://news.ycombinator.com) Scraper
 
-[![Build Status](https://travis-ci.org/bencevans/node-hn.js.png?branch=master)](https://travis-ci.org/bencevans/node-hn.js)
-[![Coverage Status](https://coveralls.io/repos/bencevans/node-hn.js/badge.png?branch=master)](https://coveralls.io/r/bencevans/node-hn.js?branch=master)
-[![Dependency Status](https://david-dm.org/bencevans/node-hn.js.png)](https://david-dm.org/bencevans/node-hn.js)
+
 
 ## Install
 
@@ -12,7 +10,7 @@
 npm install hn.js
 ```
 
-## Example
+## Usage
 
 ```javascript
 var hn = require("hn.js");
@@ -36,34 +34,6 @@ Writes to Log:
 // ...
 ```
 
-Inspired by [forresty/hn](https://github.com/forresty/hn), required by [bencevans/HNCache](https://github.com/bencevans/HNCache)
-
-## Links
-
-[GitHub Repo](https://github.com/bencevans/node-hn.js)
-[Issues](https://github.com/bencevans/node-hn.js/issues)
-
 ## Licence
 
-The MIT Licence
-
-Copyright (c) 2012 Ben Evans
-
-Permission is hereby granted, free of charge, to any person obtaining
-a copy of this software and associated documentation files (the
-"Software"), to deal in the Software without restriction, including
-without limitation the rights to use, copy, modify, merge, publish,
-distribute, sublicense, and/or sell copies of the Software, and to
-permit persons to whom the Software is furnished to do so, subject to
-the following conditions:
-
-The above copyright notice and this permission notice shall be
-included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
-EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
-MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
-NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
-LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
-OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
-WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+MIT © [Ben Evans](http://bensbit.co.uk)
