@@ -7,7 +7,7 @@
 ## Install
 
 ```bash
-npm install hn.js
+npm install --save hn.js
 ```
 
 ## Usage
